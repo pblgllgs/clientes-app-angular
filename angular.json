@@ -24,19 +24,17 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/assets/js",
-              "src/assets/css"
+              "src/assets"
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/bootstrap.min.css"
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "src/assets/js/jquery-3.5.1.slim.min.js",
-              "src/assets/js/popper.min.js",
-              "src/assets/js/bootstrap.min.js",
-              "src/assets/js/bootstrap.bundle.min.js"
+              "./node_modules/jquery/dist/jquery.slim.min.js",
+              "./node_modules/popper.js/dist/popper.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
           },
           "configurations": {
